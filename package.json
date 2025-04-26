@@ -1,0 +1,15 @@
+{
+  "name": "stremingplatform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Node.js","express.js","javascript","mongoDB"],
+  "author": "Jayesh Rewani",
+  "license": "ISC",
+  "description": "Vidora (Video + Aurora)",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
