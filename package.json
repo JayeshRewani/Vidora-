@@ -2,14 +2,23 @@
   "name": "stremingplatform",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": ["Node.js","express.js","javascript","mongoDB"],
+  "keywords": [
+    "Node.js",
+    "express.js",
+    "javascript",
+    "mongoDB"
+  ],
   "author": "Jayesh Rewani",
   "license": "ISC",
   "description": "Vidora (Video + Aurora)",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
